@@ -1,0 +1,29 @@
+.suggestions {
+  margin: 20px;
+}
+.suggestions__text {
+  color: var(--rgb6);
+  margin-bottom: 20px;
+}
+.suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suggestions__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 13px;
+  margin-bottom: 7px;
+}
+
+.suggestions__span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--rgb4);
+}

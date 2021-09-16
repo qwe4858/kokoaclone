@@ -1,0 +1,15 @@
+.recommended-friends__title {
+  color: var(--rgb4);
+  margin: 20px;
+}
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  color: var(--rgb4);
+  margin: 100px;
+  font-size: 18px;
+}
+.recommended-friends {
+  border-bottom: 1px var(--rgb2) solid;
+  border-top: 1px var(--rgb2) solid;
+}

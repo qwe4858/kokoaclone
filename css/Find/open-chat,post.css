@@ -1,0 +1,93 @@
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  color: var(--rgb4);
+}
+
+.open-chat__header i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.open-post__title {
+  font-weight: 600;
+}
+.open-post__column {
+  margin: 20px;
+}
+.open-post__fanclub-img {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.open-post__fanclub {
+  display: flex;
+}
+.open-post__hashtags,
+.open-post__fanclub-count {
+  color: var(--rgb4);
+}
+.open-post__hashtags {
+  margin: 5px 0px;
+}
+.open-post__fanclub-status {
+  color: hotpink;
+}
+
+.open-post__fanclub .divider {
+  width: 1px;
+  height: 10px;
+  margin: 0px 5px;
+  color: var(--rgb2);
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+}
+.open-post__column-heartcount {
+  position: relative;
+}
+.open-post__column-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.open-post__column-heart {
+  display: flex;
+  background-color: var(--rgb4);
+  color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.fa-heart {
+  margin-right: 5px;
+}
+
+@keyframes hearthBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__column-heart:hover i {
+  will-change: transform;
+  animation: hearthBeat 1s linear infinite;
+}

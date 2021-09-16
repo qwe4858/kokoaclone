@@ -1,0 +1,12 @@
+.screen-header__point {
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 100%;
+  top: -20px;
+  right: -5px;
+  position: absolute;
+}
+.screen-header__icon span {
+  position: relative;
+}

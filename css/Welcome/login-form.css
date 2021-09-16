@@ -1,0 +1,33 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.login-form input {
+  padding: 20px 0px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.login-form__text {
+  border-bottom: 1px rgb(0, 0, 0, 0.5) solid;
+  transition: border-color 0.3s ease-in;
+  border-color: var(--yellow);
+}
+
+.login-form__text ::placeholder {
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.login-form__link {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-form__submit {
+  background-color: var(--yellow);
+  border-radius: 10px;
+  font-size: 17px;
+}

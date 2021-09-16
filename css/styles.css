@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "no-mobile.css";
+/* Welcome folder */
+@import "Welcome/status-bar.css";
+@import "Welcome/Welcome-header.css";
+@import "Welcome/login-form.css";
+
+/* Friends folder */
+@import "Friends/nav-bar.css";
+@import "Friends/header.css";
+@import "Friends/friends-names.css";
+@import "Friends/user-component.css";
+@import "Friends/channel.css";
+@import "Friends/channel-component.css";
+
+/* Chats folder */
+@import "Chats/chat.css";
+
+/* Find folder */
+@import "Find/find-icons.css";
+@import "Find/point.css";
+@import "Find/recommended.css";
+@import "Find/open-chat,post.css";
+
+/* More folder */
+@import "More/More.css";
+
+/* Setting folder */
+@import "Setting/header.css";
+
+/* chatting folder */
+@import "chatting/ironman.css";
+body {
+  font-family: "Staatliches", cursive;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: tomato;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  font-weight: 600;
+}

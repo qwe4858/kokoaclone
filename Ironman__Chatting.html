@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Ironman - Kokoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="chat-screen chatting">
+    <div class = "status-bar status-chatting">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:49</span>
+        </div>
+        <div class="status-bar__column">
+            <span>50%</span>
+            <i class="fas fa-battery-half"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header setting-header header-name">
+        <div class="setting-header__icons">
+            <a href="Chats.html" class="setting-header__icon">
+            <i class="fas fa-less-than fa-2x"></i>
+        </a>
+        </div>
+        <div class="setting-header__icons">
+            <h1 class="setting-header__title">Ironman</h1>
+        </div>
+        <div class="setting-header__icons">
+            <a href="#" class="setting-header__icon">
+                <i class="fas fa-search fa-2x"></i>
+            </a>
+            <a href="#" class="setting-header__icon">
+                <i class="fas fa-bars fa-2x"></i>
+            </a>
+        </div>
+    </header>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, July 19, 2021
+        </div>
+
+        <div class="message__you message-row">
+            <img src="ironman.jpg">
+            <div class="message-row__content">
+                <span class="message__author">Ironman</span>
+                <div class="message__info">
+                    <span class=" message__bubble">Hi!</span>
+                    <span class="message__time">10:18</span>
+                </div>
+            </div>
+        </div>
+        <div class=" message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class=" message__bubble">Hi! nice to meet you!</span>
+                    <span class="message__time">10:18</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message.."/>
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/a4c6359cae.js"
+    crossorigin="anonymous"></script>
+</body>
+</html>
